@@ -1,0 +1,54 @@
+body {
+	background-color: green;
+}
+.ui-dialog {
+	top: 0px !important;
+	width: 425px !important;
+}
+.ui-dialog-titlebar {
+    display:none
+}
+.shut-up {
+    float:left;
+    display: inline-block;
+    font-weight: 500 !important;
+}
+.btn-primary {
+	float: right;
+	margin: 10px 0px;
+	background-color: #2196F3;
+    border: unset;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.table td {
+    padding: 5px 10px;
+}
+
+.jumbotron {
+    padding: 0.2rem 1.3rem;
+}
+hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.multiplication{
+    margin-bottom: 50px;
+}
+table.traffic-signal-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.traffic-signal-table th, 
+.traffic-signal-table td {
+  text-align: left;
+  padding: 16px;
+}
+
+.traffic-signal-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
